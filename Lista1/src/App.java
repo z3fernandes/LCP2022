@@ -23,8 +23,17 @@ public class App {
         // Biblioteca biblioteca = new Biblioteca();
         // biblioteca.Run();
 
-        Exercicio6 exercicio6 = new Exercicio6();
-        exercicio6.Run();
+        // Exercicio6 exercicio6 = new Exercicio6();
+        // exercicio6.Run();
+
+        // Exercicio7 exercicio7 = new Exercicio7(1, 2, 3, 4);
+        // System.out.println(exercicio7.value);
+
+        Exercicio8 exercicio8 = new Exercicio8();
+        exercicio8.Run(153);
+        exercicio8.Run(371);
+        exercicio8.Run(9474);
+        exercicio8.Run(54748);
 
     }
 }

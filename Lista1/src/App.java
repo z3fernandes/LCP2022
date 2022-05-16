@@ -3,6 +3,7 @@ import java.util.Scanner;
 import Exercicio3.Exercicio3;
 import Exercicio4.Exercicio4;
 import Exercicio5.Biblioteca;
+import Exercicio6.Exercicio6;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -19,7 +20,11 @@ public class App {
         // Exercicio4 exercicio4 = new Exercicio4();
         // exercicio4.Run();
 
-        Biblioteca biblioteca = new Biblioteca();
-        biblioteca.Run();
+        // Biblioteca biblioteca = new Biblioteca();
+        // biblioteca.Run();
+
+        Exercicio6 exercicio6 = new Exercicio6();
+        exercicio6.Run();
+
     }
 }

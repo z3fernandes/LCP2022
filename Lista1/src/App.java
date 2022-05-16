@@ -1,6 +1,8 @@
 import java.util.Scanner;
+
 import Exercicio3.Exercicio3;
 import Exercicio4.Exercicio4;
+import Exercicio5.Biblioteca;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -14,7 +16,10 @@ public class App {
         // Exercicio3 exercicio3 = new Exercicio3();
         // exercicio3.run();
 
-        Exercicio4 exercicio4 = new Exercicio4();
-        exercicio4.Run();
+        // Exercicio4 exercicio4 = new Exercicio4();
+        // exercicio4.Run();
+
+        Biblioteca biblioteca = new Biblioteca();
+        biblioteca.Run();
     }
 }
